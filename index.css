@@ -1,0 +1,208 @@
+body {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-size: 1.5em;
+    background-color: #FFEFD3;
+    background-repeat:repeat-y;
+    background-attachment: fixed;
+    background-position: center;
+    border: #F5DD90;
+
+
+    outline-color: #FFEFD3;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+header {
+    background-color: #000;
+    border: #7A8B99 solid;
+    margin-top: 0;
+    padding: 1em;
+
+
+
+
+}
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 0;
+    border: black solid;
+    margin: 1em;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0%;
+    height: auto;
+    width: auto;
+    align-items: center;
+    grid-auto-flow: column;
+
+}
+h1 {
+    color: #F5DD90;
+    display: flex;
+    justify-content: flex-start;
+    margin: auto;
+    padding: auto;
+
+}
+ul a:visited {
+    color: ghostwhite;
+    text-decoration: none;
+}
+
+ul a:hover {
+    color: grey;
+}
+ 
+ul a:link {
+    text-decoration: none;
+  }
+
+.real {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: #7A8B99 solid;
+    margin: 1em;
+    padding: 1em;
+    background-color: aliceblue;
+  }
+
+  .yellow {
+    
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0;
+    padding-bottom: 0.5rem;
+    color: darkorange;
+    font-size: 1.8em;
+    font-family: cursive;
+  }
+
+  .image {
+    
+    margin: 0.5rem;
+    padding: 0.5rem;
+    
+  }
+
+  .white {
+    
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: auto;
+    color: rgba(48, 42, 42, 0.326);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+  }
+
+  .about {
+    font-family: 'Poppins', Arial, sans-serif;
+    position: relative;
+
+  }
+
+  .who {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  img {
+    float: left;
+    margin: auto;
+    margin-right: 30px;
+  }
+.Certificates {
+    margin: auto;
+    padding: auto;
+    color: #F5DD90;
+    background-color: #000;
+    height: 2em;
+
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px
+    
+    
+}
+
+.Python {
+    border: #7A8B99 solid;
+    margin-top: 1sem;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+    padding: 1em;
+    height: 600px;
+    background-color: aliceblue;
+    width: 40%
+
+    
+    
+}
+
+.Suturing {
+    border: #7A8B99 solid;
+    margin: 1em;
+    padding: 1em;
+    height: 600px;
+    overflow: auto;
+    background-color: aliceblue;
+    width: 48%
+    
+    
+}
+
+.png {
+  display: flex;
+  align-items: center;
+}
+ 
+.Last {
+  background-color: #000;
+  position: sticky;
+  bottom: o;
+  color: #F5DD90;
+  margin: 1em;
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  overflow: auto;
+
+
+}
+
+ p a:hover {
+  color: grey;
+}
+a:visited{
+  color: #000;
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+button {
+  display: flex;
+  justify-content: right;
+  align-items: flex-end;
+}
